@@ -1,0 +1,15 @@
+##Topics covered: Introduction to Python
+# -Why python?
+# -python installation
+# -python IDEs
+# -How python programs are executed
+# -python programming terminology
+# -Comments in python
+
+##Summary:
+# python is a high-level programming language that is easy to learn and is widely used due to its similarity to the English language.It is concise, It is not only accessible but also powerful, making it a great choice for beginners and experienced programmers alike. Python is used in various fields, including web development, data analysis, artificial intelligence, scientific computing, and more. It has a large community and a vast ecosystem of libraries and frameworks that make it suitable for a wide range of applications.
+# python uses # sign to write comments in the code. Comments are used to explain the code and make it more readable.
+
+##Challenges:
+# 1. Write a program to print "Hello, World!" to the console.
+# 2.You are given a complete function that outputs a, b and c. Comment th code that outputs b,so only a and c gets printed. e.g. input a = 5, b = 6, c = 15 Output: 5, 15

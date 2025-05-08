@@ -1,0 +1,15 @@
+##Topics covered: Python data types 
+-Variables in python
+-Swapping variables
+-Understanding 'Id()' function in python
+-Understanding the 'type()' function in python
+-Introduction to lists in python
+
+##Summary:
+-Variables are containers used to store data values. In Python, variables do not need to be declared with a specific type, as Python is dynamically typed.
+-The 'id()' function returns the identity of an object, which is unique and constant for the object during its lifetime.
+-The 'type()' function returns the type of an object, which can be useful for debugging and understanding the data types being used in a program.
+-Lists are a built-in data type in Python that can store multiple items in a single variable. Lists are ordered, changeable, and allow duplicate values. They are defined using square brackets [] and can contain items of different data types.
+
+##Challenges:
+-None at this time.

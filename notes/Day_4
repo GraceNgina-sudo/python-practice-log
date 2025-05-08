@@ -1,0 +1,40 @@
+##Topics covered: Exercises
+-Swapping variables
+Given two variables, a and b, You need to swap their values so that a holds the value of b and b holds the value of a.
+a = 5
+b = 10
+a, b = b, a
+print("After swapping: a =", a, ", b =", b)
+-Test if tuple is distinct
+Given a tuple, arr you need to print True if all the elements in the tuple are distinct, otherwise print False.
+arr = (1, 2, 3, 4, 5)
+print("Is tuple distinct?", len(arr) == len(set(arr)))
+-Find index of an element in a tuple
+Given a tuple, arr with distinct elements and an integer x. Find the position of x. Assume to have x in the tuple always print the index (o-based)
+arr = (1, 2, 3, 4, 5)
+x = 3
+print("Index of", x, "in tuple:", arr.index(x))
+-Implement set in python
+add element i
+remove element r
+print the sum of all elements in the set
+st = [6, 7, 81, 2, 1], i =3 r = 6
+
+ st = {int(x) for x in input().split()}
+ i = int(input())
+  r = int(input())
+  # Add element i
+  st.add(i)
+  #printing the set
+  for i in sorted (st):
+    print(i, end=" ")
+    print()
+  # Remove element r
+  st.remove(r)
+  #printing the set
+  for i in sorted (st):
+    print(i, end=" ")
+    print()
+  # Print the sum of all elements in the set
+  s = sum(st)
+  print(s)
